@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<html lang="en" oncontextmenu="return false">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+
+    <!-- <link rel="icon" type="image/x-icon" href="assets/img/favup.webp"> -->
+    <link rel="shortcut icon" href="assets/img/favup.webp" type="image/x-icon">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <noscript>
+        <!-- Fallback content for users with disabled JavaScript -->
+        <meta http-equiv="refresh" content="0;url=noscript.html">
+    </noscript>
+
+    <title> Atharv Rastogi </title>
+</head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XEQ5BELM4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-7XEQ5BELM4');
+    </script>
+
+<!-- <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">  -->
+
+<body>
+    <!--=============== HEADER ===============-->
+      
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Atharv</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <ion-icon name="chatbubbles-outline"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class='bx bx-moon' class="change-theme" id="theme-button"></i>
+        </nav>
+
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello I'm</span>
+                    <h1 class="home__name">Atharv Rastogi</h1>
+                    <h3 class="home__education">Student</h3>
+
+                    <div class="home__buttons">
+                        <a download="Atharv Rastogi Resume" href="assets/pdf/atharv.pdf" class="button">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button button--ghost">About Me</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/mypfp1-compressed.png" alt="profilephoto" class="home__img">
+                </div>
+
+                <div class="home__social">
+
+                    <a href="https://www.linkedin.com/in/atharv-rastogi-b9612a278/" class="home__social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://www.github.com/atharv714" class="home__social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="https://www.twitter.com/atharvrastogi11" class="home__social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+
+            </div>
+        </section>
+
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container container grid">
+                <img src="assets/img/about.webp"  alt="" class="about__img">
+                <div class="about__data">
+                    <div class="about__info">
+                       <div class="about__box">
+                            <ion-icon name="medal-outline" class="about__icon"></ion-icon>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">Fresher Student</span>
+                       </div>
+
+                       <div class="about__box">
+                            <ion-icon name="briefcase-outline" class = "about__icon"></ion-icon>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">6+ Projects</span>
+                       </div>
+
+                       <div class="about__box">
+                            <ion-icon name="school-outline" class = "about__icon"></ion-icon>
+                            <h3 class="about__title">College</h3>
+                            <span class="about__subtitle">VIT AP</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Dedicated and enthusiastic learner with a passion for technology and programming. Currently in first year of B.Tech Degree, Successfully completed courses in Web Development and Python programming and built more than 6 projects.
+                    </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section id="skills"></section>
+        <section id="skills">
+            <div class="skill__container container">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My SKills</h2>
+    
+                <section class="skills">
+                    <div class = "skills-container-div">
+                       <center>
+                        <h5>FrontEnd</h4>
+                       </center>
+                        <ul class="skills-bar-container">
+                            <li>
+                              <div class="progressbar-title">
+                                <h3>HTML5</h3>
+                                <span class="percent" id="html-pourcent"></span>
+                              </div>
+                              <div class="bar-container">
+                                <span class="progressbar progressred" id="progress-html"></span>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="progressbar-title">
+                                <h3>CSS / SASS</h3>
+                                <span class="percent" id="css-pourcent"></span>
+                              </div>
+                              <div class="bar-container">
+                                <span class="progressbar progressblue" id="progress-css"></span>
+                              </div>
+                            </li>
+                            
+                            <li>
+                              <div class="progressbar-title">
+                                <h3>javaScript / jQuery</h3>
+                                <span class="percent" id="javascript-pourcent"></span>
+                              </div>
+                              <div class="bar-container">
+                                <span class="progressbar progresspurple" id="progress-javascript"></span>
+                              </div>
+                            </li>
+                            
+                            <li>
+                              <div class="progressbar-title">
+                                <h3>React</h3>
+                                <span class="percent" id="react-pourcent"></span>
+                              </div>
+                              <div class="bar-container">
+                                <span class="progressbar progressorange" id="progress-react"></span>
+                              </div>
+                            </li>
+                            
+                            <li>
+                              <div class="progressbar-title">
+                                <h3>Nextjs</h3>
+                                <span class="percent" id="nextjs-pourcent"></span>
+                              </div>
+                              <div class="bar-container">
+                                <span class="progressbar progressgreen" id="progress-nextjs"></span>
+                              </div>
+                            </li>
+                          </ul>
+                    </div>
+    
+                    <div class = "skills-container-div">
+                        <center>
+                            <h5>Backend</h4>
+                           </center>
+                           <ul class="skills-bar-container" id = "backend">
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>Flask</h3>
+                                <span class="percent" id="flask-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressred" id="progress-flask"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>Mysql</h3>
+                                <span class="percent" id="mysql-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressblue" id="progress-mysql"></span>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>sql3lite</h3>
+                                <span class="percent" id="sql3"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progresspurple" id="progress-sql3"></span>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>appwrite</h3>
+                                <span class="percent" id="appwrite"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressorange" id="progress-appwrite"></span>
+                                </div>
+                            </li>
+
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class = "skills-container-div">
+                        <center>
+                            <h5>Competetive Programming</h4>
+                           </center>
+                        <ul class="skills-bar-container">
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>Python</h3>
+                                <span class="percent" id="python-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressred" id="progress-python"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>Java</h3>
+                                <span class="percent" id="java-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressblue" id="progress-java"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>C++</h3>
+                                <span class="percent" id="cpp-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressgreen" id="progress-cpp"></span>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>OOPS</h3>
+                                <span class="percent" id="oops-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progresspurple" id="progress-oops"></span>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="progressbar-title">
+                                <h3>DSA</h3>
+                                <span class="percent" id="dsa-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                <span class="progressbar progressorange" id="progress-dsa"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">My Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".web">Frontend</span>
+                <span class="work__item" data-filter=".backend">BackEnd</span>
+                <span class="work__item" data-filter=".android">Android Dev</span>
+            </div>
+
+            <!-- ===================== projects ================= -->
+            <div class="work__container container grid">
+                 <div class="work__card mix web">
+                    <img class = "work__img" src="assets/img/workimages/bbqnation.webp" alt="">
+                    <h3 class="work__title">BBQ Nation Webpage</h3>
+                    <a href="https://atharv714.github.io/bbqnation/" class="work__button" target="_blank">
+                        Check Out <ion-icon name="arrow-forward-outline" class = "work__icon"></ion-icon>
+                    </a>
+                 </div>
+
+                 <div class="work__card mix web">
+                    <img class = "work__img" src="assets/img/workimages/codewithatharv.webp" alt="">
+                    <h3 class="work__title">Code With Atharv Webpage</h3>
+                    <a href="https://atharv714.github.io/codewithatharv/" class="work__button" target="_blank">
+                        Check Out <ion-icon name="arrow-forward-outline" class = "work__icon"></ion-icon>
+                    </a>
+                 </div>
+
+                 <div class="work__card mix web">
+                    <img class = "work__img" src="assets/img/workimages/lwa.webp" alt="">
+                    <h3 class="work__title">Learn With Atharv</h3>
+                    <a href="https://lwa.vercel.app/" class="work__button" target="_blank">
+                        Check Out <ion-icon name="arrow-forward-outline" class = "work__icon"></ion-icon>
+                    </a>
+                 </div>
+
+                 <div class="work__card mix backend">
+                    <img class = "work__img" src="assets/img/workimages/backend/vtapp.webp" alt="">
+                    <h3 class="work__title">VTAPP Flask Application</h3>
+                    <a href="https://github.com/TAHIR0110/ACM_Hackathon" class="work__button" target="_blank">
+                        Check Out <ion-icon name="arrow-forward-outline" class = "work__icon"></ion-icon>
+                    </a>
+                 </div>
+
+                 <div class="work__card mix backend">
+                    <img class = "work__img" src="assets/img/workimages/backend/careerforge.webp" alt="">
+                    <h3 class="work__title">Career Forge Project</h3>
+                    <a href="https://github.com/TAHIR0110/ACM_Hackathon" class="work__button" target="_blank">
+                        Check Out <ion-icon name="arrow-forward-outline" class = "work__icon"></ion-icon>
+                    </a>
+                 </div>
+
+                 <div class="work__card mix android">
+                    <img class = "work__img" src="assets/img/workimages/android/comingsoon.webp" alt="">
+                    <h3 class="work__title">Coming Soon</h3>
+                    <a href="" class="work__button" target="_blank">
+                        Check Out <ion-icon name="arrow-forward-outline" class = "work__icon"></ion-icon>
+                    </a>
+                 </div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in Touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div>
+                <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+                <form action="https://formspree.io/f/xleqnzyy" method="POST" class="contact__form" target="dummyframe">
+                    <div class="footer-grid">
+                        
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input name = "name" type="text" placeholder="Insert your Name" class="contact__form-input">
+                        </div>
+                        
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input name = "email" type="email" placeholder="Insert your Email" class="contact__form-input">
+                        </div>
+
+                    </div>
+
+                    <div class="contact__form-area contact__form-div">
+                        <label for="" class="contact__form-tag">Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Write your Message, This acutally sends message :)" class="contact__form-input"></textarea>
+                    </div>
+                    <center>
+
+                        <button type="submit" class="button">Send Message</button>
+                    </center>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Atharv</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#" class="footer">About</a>
+                </li>
+
+                <li>
+                    <a href="#about" class="footer">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer">Testimonial</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/atharv-rastogi-b9612a278/" class="footer__social-link" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://www.github.com/atharv714" class="footer__social-link" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.twitter.com/atharvrastogi11" class="footer__social-link" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                Made with ♥️ by <u>Atharv Rastogi</u>
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.addEventListener('keydown', event => {
+  if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey && event.keyCode === 73) || event.metaKey) {
+    event.preventDefault();
+  }
+});
+    </script>
+
+
+
+</body>
+
+</html>
